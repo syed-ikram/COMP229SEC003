@@ -18,10 +18,10 @@ module.exports.displayProjectsPage = (req,res,next)=>{
     res.render('projects',{title:'Projects',displayName:req.user?req.user.displayName:''});
 }
 module.exports.displayServicesPage = (req,res,next)=>{
-    res.render('Services',{title:'Services',displayName:req.user?req.user.displayName:''});
+    res.render('services',{title:'Services',displayName:req.user?req.user.displayName:''});
 }
 module.exports.displayContactPage = (req,res,next)=>{
-    res.render('Contact',{title:'Contact', displayName:req.user?req.user.displayName:''});
+    res.render('contact',{title:'Contact', displayName:req.user?req.user.displayName:''});
 }
 module.exports.displayLoginPage = (req,res,next)=>{
     //check if the user is already logged in

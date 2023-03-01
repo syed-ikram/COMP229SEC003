@@ -1,3 +1,9 @@
+/*
+filename:models/book.js
+author:Syed Ikramuddin
+studentID: 301318212
+webAppName: Book Store
+ */
 let mongoose = require('mongoose');
 
 // create a model class

@@ -1,3 +1,9 @@
+/*
+filename:config/app.js
+author:Syed Ikramuddin
+studentID: 301318212
+webAppName: Book Store
+ */
 // moddules for node and express
 let createError = require('http-errors');
 let express = require('express');

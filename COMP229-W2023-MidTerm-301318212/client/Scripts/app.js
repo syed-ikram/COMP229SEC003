@@ -1,4 +1,10 @@
 /* custom JS goes here */
+/*
+filename:App.js
+author:Syed Ikramuddin
+studentID: 301318212
+webAppName: Book Store
+ */
 (function () {
     function start() {
         console.log("App Started...");
